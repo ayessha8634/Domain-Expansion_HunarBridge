@@ -1,0 +1,52 @@
+{
+  "common": {
+    "welcome": "Welcome to HunarBridge",
+    "craft_as_cv": "Your craft is your CV",
+    "join_as_artisan": "Join as Artisan",
+    "discover_masters": "Discover Masters",
+    "voice_input": "Voice Input",
+    "camera_upload": "Camera Upload",
+    "send": "Send",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "powering_artisans": "Powering India's Micro-Entrepreneurs",
+    "artisans_joined": "Artisans Joined",
+    "trust_verified": "Trust Verified",
+    "economic_growth": "Economic Growth"
+  },
+  "nav": {
+    "home": "Home",
+    "discover": "Discover",
+    "gallery": "Gallery",
+    "settings": "Settings",
+    "profile": "Profile"
+  },
+  "onboarding": {
+    "describe_craft": "Describe your craft",
+    "show_work": "Show your masterpieces",
+    "complete": "Portfolio Created!"
+  },
+  "ai": {
+    "header": "Hunar AI",
+    "sub_header": "Mastery Assistant",
+    "placeholder": "Ask Hunar AI anything...",
+    "welcome_msg": "Namaste! I'm Hunar AI. I'm trained to help you with anything about HunarBridge. How can I help you today?"
+  },
+  "settings": {
+    "title": "Settings & Privacy",
+    "help_center": "Help Centre",
+    "privacy": "Privacy",
+    "notifications": "Notifications",
+    "feedback": "Help & Feedback",
+    "change_password": "Change Password",
+    "contact_visibility": "Allow Contact Outside Platform",
+    "contact_desc": "If enabled, buyers can see your WhatsApp/Phone number.",
+    "notifications_desc": "Get alerts for new messages and rewards."
+  },
+  "map": {
+    "locate_me": "Locate Me",
+    "set_manual": "Set Location Manually",
+    "nearby_artisans": "Artisans Near You"
+  }
+}

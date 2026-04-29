@@ -1,0 +1,15 @@
+{
+  "common": {
+    "welcome": "हुनर ब्रिजमध्ये आपले स्वागत आहे",
+    "craft_as_cv": "तुमची कला हीच तुमची ओळख",
+    "join_as_artisan": "कलाकार म्हणून सामील व्हा",
+    "discover_masters": "तज्ञ कलाकार शोधा",
+    "voice_input": "व्हॉइस इनपुट",
+    "camera_upload": "कॅमेरा अपलोड"
+  },
+  "onboarding": {
+    "describe_craft": "तुमच्या कलेचे वर्णन करा",
+    "show_work": "तुमचे काम दाखवा",
+    "complete": "प्रोफाइल तयार झाले!"
+  }
+}

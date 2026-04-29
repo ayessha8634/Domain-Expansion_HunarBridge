@@ -1,0 +1,15 @@
+{
+  "common": {
+    "welcome": "హునర్ బ్రిడ్జ్ కి స్వాగతం",
+    "craft_as_cv": "మీ కళే మీ గుర్తింపు",
+    "join_as_artisan": "కళాకారుడిగా చేరండి",
+    "discover_masters": "నిపుణులను కనుగొనండి",
+    "voice_input": "వాయిస్ ఇన్పుట్",
+    "camera_upload": "కెమెరా అప్లోడ్"
+  },
+  "onboarding": {
+    "describe_craft": "మీ కళను వివరించండి",
+    "show_work": "మీ పనిని చూపించండి",
+    "complete": "ప్రొఫైల్ సృష్టించబడింది!"
+  }
+}

@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", sans-serif;
+  --font-body: "Inter", sans-serif;
+  
+  --color-brand-primary: #8B4513; /* SaddleBrown */
+  --color-brand-secondary: #DAA520; /* Goldenrod */
+  --color-brand-dark: #2D1B0E; /* Dark Brown */
+  --color-brand-light: #FDF5E6; /* OldLace */
+  --color-brand-accent: #CD853F; /* Peru */
+}
+
+@layer base {
+  body {
+    @apply bg-brand-light text-brand-dark font-body antialiased selection:bg-brand-primary selection:text-brand-light;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-xl;
+  }
+  
+  .btn-primary {
+    @apply bg-brand-primary text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-xs transition-all hover:scale-105 active:scale-95 shadow-lg hover:shadow-brand-primary/20;
+  }
+
+  .btn-secondary {
+    @apply bg-brand-secondary text-brand-dark px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-xs transition-all hover:scale-105 active:scale-95 shadow-lg hover:shadow-brand-secondary/20;
+  }
+}
+
+/* Custom Leaflet Dark Mode adjustment if needed */
+.leaflet-container {
+  background: #1a1a1a !important;
+}
+
+@media print {
+  body {
+    background-color: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  /* Hide Navbar */
+  nav {
+    display: none !important;
+  }
+  
+  /* Avoid breaking glass components across pages */
+  .glass {
+    break-inside: avoid;
+    box-shadow: none !important;
+    border: 2px solid #e5e7eb !important;
+  }
+}

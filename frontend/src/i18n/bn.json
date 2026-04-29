@@ -1,0 +1,15 @@
+{
+  "common": {
+    "welcome": "হুনার ব্রিজে স্বাগতম",
+    "craft_as_cv": "আপনার শিল্পই আপনার পরিচয়",
+    "join_as_artisan": "কারিগর হিসেবে যোগ দিন",
+    "discover_masters": "দক্ষ কারিগর খুঁজুন",
+    "voice_input": "ভয়েস ইনপুট",
+    "camera_upload": "ক্যামেরা আপলোড"
+  },
+  "onboarding": {
+    "describe_craft": "আপনার শিল্পের বর্ণনা দিন",
+    "show_work": "আপনার কাজ দেখান",
+    "complete": "প্রোফাইল তৈরি হয়েছে!"
+  }
+}
